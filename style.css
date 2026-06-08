@@ -9,8 +9,6 @@ div {
    align-items: center;
 }
 
-
-
 .logo-header {
    width: 15%;
    height: auto;
@@ -24,6 +22,12 @@ div {
 .img-header {
    position: relative;
    display: inline-block;
+}
+
+#titulo-principal{
+   color: white;
+   font-size: 200%;
+   font-weight: bold;
 }
 
 .bnt{
@@ -64,10 +68,13 @@ font-weight: bold;
 }
 .texto-sinopse-destaque {
    color: red;
+   display: flex;
+   justify-content: center;
 }
 .sinopse {
    color: white;
    font-size: 200%;
+   
 }
 
 .galeria{
